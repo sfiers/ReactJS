@@ -9,13 +9,13 @@ import EventBind from './EventBind.js';
 import Hello from './Hello.js';
 import Welcome from './Welcome'
 import Greet from './Greet.js'
+import ParentComponent from './ParentComponent.js';
 
 function App() {
   return (
     <div className="App">
-        {/* <Greet name='Simon' surname='Fiers'/> */}
-
-        <EventBind/>
+        <ParentComponent />
+        {/* <EventBind/> */}
         {/* <ClassClick/> */}
         {/* <FuncionClick/> */}
         {/* <Welcome name='Simon' heroName='Fiers'>
