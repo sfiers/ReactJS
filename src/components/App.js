@@ -2,7 +2,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import Greet from './Greet.js'
-import Ric from './Welcome'
+import Welcome from './Welcome'
 import Message from './Message.js';
 import Counter from './Counter.js';
 import FuncionClick from './FuncionClick.js';
@@ -17,12 +17,12 @@ function App() {
         {/* <FuncionClick/> */}
         {/* <EventBind/> */}
         {/* <ClassClick/> */}
-        <Greet />
         {/* <Greet name='Marc' surname='Fiers'> */}
           {/* <p>This is the kid</p> */}
         {/* </Greet> */}
-        {/* <Ric name='Micheline' surname='Mams'/> */}
         {/* <Message/> */}
+        <Welcome name='Micheline' surname='Mams'/>
+        {/* <Greet /> */}
     </div>
   )
 }
