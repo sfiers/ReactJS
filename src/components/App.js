@@ -21,9 +21,8 @@ function App() {
         {/* <Greet name='Marc' surname='Fiers'> */}
           {/* <p>This is the kid</p> */}
         {/* </Greet> */}
-        {/* <Message/> */}
-        {/* <Welcome name='Micheline' surname='Mams'/> */}
-        <Welcome name='Simon' heroname='Fiers'>
+        <Message/>
+        {/* <Welcome name='Simon' heroname='Fiers'>
           <p> This is children props</p>
         </Welcome>
         <Welcome nname='Clark' heroname='Superman'>
@@ -36,7 +35,7 @@ function App() {
         <Greet name='Clark' heroname='Superman'>
           <button>Action</button>
         </Greet>
-        <Greet name='Diana' heroname='Wonder Women'/>
+        <Greet name='Diana' heroname='Wonder Women'/> */}
         {/* <Hello /> */}
         {/* <Welcome /> */}
         {/* <Greet /> */}
