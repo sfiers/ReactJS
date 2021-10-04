@@ -29,3 +29,10 @@ JSX ?
 
     Extension to the JS language syntax. (XML like)
     =>code more simpler and elegant (ultimately transpiles to pure JS which is understood by the browsers)
+
+ES7 extentions
+
+    Snippets
+        rce (react class component + export) 
+            => remove name export because we only want the default export
+        rconst (react constructor)

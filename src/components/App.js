@@ -13,15 +13,14 @@ import Greet from './Greet.js'
 function App() {
   return (
     <div className="App">
-        {/* <Counter/> */}
         {/* <Greet name='Simon' surname='Fiers'/> */}
         {/* <FuncionClick/> */}
         {/* <EventBind/> */}
         {/* <ClassClick/> */}
-        {/* <Greet name='Marc' surname='Fiers'> */}
-          {/* <p>This is the kid</p> */}
+
+        <Counter/>
         {/* </Greet> */}
-        <Message/>
+        {/* <Message/> */}
         {/* <Welcome name='Simon' heroname='Fiers'>
           <p> This is children props</p>
         </Welcome>
