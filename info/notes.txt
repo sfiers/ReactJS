@@ -23,4 +23,9 @@ Components ?
 
 2 types of components ?
 
-Functional Components vs Class Components
+    Functional Components vs Class Components
+
+JSX ?
+
+    Extension to the JS language syntax. (XML like)
+    =>code more simpler and elegant (ultimately transpiles to pure JS which is understood by the browsers)
