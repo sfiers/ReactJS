@@ -15,13 +15,13 @@ function App() {
         {/* <Counter/> */}
         {/* <Greet name='Simon' surname='Fiers'/> */}
         {/* <FuncionClick/> */}
-        <EventBind/>
+        {/* <EventBind/> */}
         {/* <ClassClick/> */}
-        {/* <Greet name='Maxime'/>
-        <Greet name='Marc' surname='Fiers'>
-          <p>This is the kid</p>
-        </Greet>
-        <Ric name='Micheline' surname='Mams'/> */}
+        <Greet />
+        {/* <Greet name='Marc' surname='Fiers'> */}
+          {/* <p>This is the kid</p> */}
+        {/* </Greet> */}
+        {/* <Ric name='Micheline' surname='Mams'/> */}
         {/* <Message/> */}
     </div>
   )

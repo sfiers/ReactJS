@@ -1,0 +1,26 @@
+What is React ?
+
+    Open source library for building user interfaces
+
+How to creat new App ?
+
+    npx create-react-app <name> (without locally installing package globally)
+
+How to launch App ?
+
+    npm start
+
+Folder structure ?
+
+    App.test.js (for unit test)
+    serviceWorker.js (progressive web apps)
+
+Components ?
+
+    The main component is the App component that contains other components(nested components as eg. Header, sidenav, main content, footer... )
+
+    Re-usable and can be nested inside other components
+
+2 types of components ?
+
+Functional Components vs Class Components
