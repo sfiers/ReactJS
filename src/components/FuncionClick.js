@@ -3,14 +3,15 @@ import React from 'react'
 function FuncionClick() {
 
     function clickHandler() {
-        console.log('button clicked')
+        console.log('Button function clicked')
     }
 
     return (
         <div>
-            <button onClick={clickHandler}>Click</button>
+            <button onClick={clickHandler}>Function Click</button>
         </div>
     )
 }
 
 export default FuncionClick
+

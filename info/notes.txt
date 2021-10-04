@@ -33,6 +33,12 @@ JSX ?
 ES7 extentions
 
     Snippets
+        rfce (react functional component + export)
         rce (react class component + export) 
             => remove name export because we only want the default export
         rconst (react constructor)
+
+Event Handling
+
+    Functional: onClick={clickHandler} (not a function call !)
+    Class: onClick={this.clickHandler} (not a function call !)

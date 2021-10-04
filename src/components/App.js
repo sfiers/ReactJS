@@ -14,15 +14,16 @@ function App() {
   return (
     <div className="App">
         {/* <Greet name='Simon' surname='Fiers'/> */}
-        {/* <FuncionClick/> */}
         {/* <EventBind/> */}
-        {/* <ClassClick/> */}
-        <Welcome name='Simon' heroName='Fiers'>
+
+        <ClassClick/>
+        <FuncionClick/>
+        {/* <Welcome name='Simon' heroName='Fiers'>
           <p> This is children props</p>
         </Welcome>
         <Greet name='Simon' heroName='Fiers'>
           <p> This is children props</p>
-        </Greet>
+        </Greet> */}
         {/* <Counter/> */}
         {/* </Greet> */}
         {/* <Message/> */}
