@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
         {/* <Greet name='Simon' surname='Fiers'/> */}
-        {/* <EventBind/> */}
 
-        <ClassClick/>
-        <FuncionClick/>
+        <EventBind/>
+        {/* <ClassClick/> */}
+        {/* <FuncionClick/> */}
         {/* <Welcome name='Simon' heroName='Fiers'>
           <p> This is children props</p>
         </Welcome>

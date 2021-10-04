@@ -41,4 +41,6 @@ ES7 extentions
 Event Handling
 
     Functional: onClick={clickHandler} (not a function call !)
+    => clickHandler needs the function keyword 
     Class: onClick={this.clickHandler} (not a function call !)
+    => clickHandler doesn't need the function keyword 
