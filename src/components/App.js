@@ -23,7 +23,21 @@ function App() {
         {/* </Greet> */}
         {/* <Message/> */}
         {/* <Welcome name='Micheline' surname='Mams'/> */}
-        <Hello />
+        <Welcome name='Simon' heroname='Fiers'>
+          <p> This is children props</p>
+        </Welcome>
+        <Welcome nname='Clark' heroname='Superman'>
+          <button>Action</button>
+        </Welcome>
+        <Welcome name='Diana' heroname='Wonder Women'/>
+        <Greet name='Simon' heroname='Fiers'>
+          <p> This is children props</p>
+        </Greet>
+        <Greet name='Clark' heroname='Superman'>
+          <button>Action</button>
+        </Greet>
+        <Greet name='Diana' heroname='Wonder Women'/>
+        {/* <Hello /> */}
         {/* <Welcome /> */}
         {/* <Greet /> */}
     </div>
