@@ -17,8 +17,13 @@ function App() {
         {/* <FuncionClick/> */}
         {/* <EventBind/> */}
         {/* <ClassClick/> */}
-
-        <Counter/>
+        <Welcome name='Simon' heroName='Fiers'>
+          <p> This is children props</p>
+        </Welcome>
+        <Greet name='Simon' heroName='Fiers'>
+          <p> This is children props</p>
+        </Greet>
+        {/* <Counter/> */}
         {/* </Greet> */}
         {/* <Message/> */}
         {/* <Welcome name='Simon' heroname='Fiers'>
