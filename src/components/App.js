@@ -10,11 +10,13 @@ import Hello from './Hello.js';
 import Welcome from './Welcome'
 import Greet from './Greet.js'
 import ParentComponent from './ParentComponent.js';
+import UserGreeting from './UserGreeting.js';
 
 function App() {
   return (
     <div className="App">
-        <ParentComponent />
+        <UserGreeting />
+        {/* <ParentComponent /> */}
         {/* <EventBind/> */}
         {/* <ClassClick/> */}
         {/* <FuncionClick/> */}
