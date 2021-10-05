@@ -12,42 +12,44 @@ import Greet from './Greet.js'
 import ParentComponent from './ParentComponent.js';
 import UserGreeting from './UserGreeting.js';
 import NameList from './NameList.js';
+import Form from './Form.js';
 
 function App() {
   return (
     <div className="App">
-        <NameList />
-        {/* <UserGreeting /> */}
-        {/* <ParentComponent /> */}
-        {/* <EventBind/> */}
-        {/* <ClassClick/> */}
-        {/* <FuncionClick/> */}
-        {/* <Welcome name='Simon' heroName='Fiers'>
-          <p> This is children props</p>
-        </Welcome>
-        <Greet name='Simon' heroName='Fiers'>
-          <p> This is children props</p>
-        </Greet> */}
-        {/* <Counter/> */}
-        {/* </Greet> */}
-        {/* <Message/> */}
-        {/* <Welcome name='Simon' heroname='Fiers'>
-          <p> This is children props</p>
-        </Welcome>
-        <Welcome nname='Clark' heroname='Superman'>
-          <button>Action</button>
-        </Welcome>
-        <Welcome name='Diana' heroname='Wonder Women'/>
-        <Greet name='Simon' heroname='Fiers'>
-          <p> This is children props</p>
-        </Greet>
-        <Greet name='Clark' heroname='Superman'>
-          <button>Action</button>
-        </Greet>
-        <Greet name='Diana' heroname='Wonder Women'/> */}
-        {/* <Hello /> */}
-        {/* <Welcome /> */}
-        {/* <Greet /> */}
+      <Form/>
+      {/* <NameList /> */}
+      {/* <UserGreeting /> */}
+      {/* <ParentComponent /> */}
+      {/* <EventBind/> */}
+      {/* <ClassClick/> */}
+      {/* <FuncionClick/> */}
+      {/* <Welcome name='Simon' heroName='Fiers'>
+        <p> This is children props</p>
+      </Welcome>
+      <Greet name='Simon' heroName='Fiers'>
+        <p> This is children props</p>
+      </Greet> */}
+      {/* <Counter/> */}
+      {/* </Greet> */}
+      {/* <Message/> */}
+      {/* <Welcome name='Simon' heroname='Fiers'>
+        <p> This is children props</p>
+      </Welcome>
+      <Welcome nname='Clark' heroname='Superman'>
+        <button>Action</button>
+      </Welcome>
+      <Welcome name='Diana' heroname='Wonder Women'/>
+      <Greet name='Simon' heroname='Fiers'>
+        <p> This is children props</p>
+      </Greet>
+      <Greet name='Clark' heroname='Superman'>
+        <button>Action</button>
+      </Greet>
+      <Greet name='Diana' heroname='Wonder Women'/> */}
+      {/* <Hello /> */}
+      {/* <Welcome /> */}
+      {/* <Greet /> */}
     </div>
   )
 }
