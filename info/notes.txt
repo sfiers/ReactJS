@@ -44,3 +44,10 @@ Event Handling
     => clickHandler needs the function keyword 
     Class: onClick={this.clickHandler} (not a function call !)
     => clickHandler doesn't need the function keyword 
+
+When to use index as a key ?
+
+    1.  The items in your list do not have a unique id.
+    2.  The list is a static list and will not change.
+    3.  The list will never be reordered or filtered.
+
