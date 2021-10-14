@@ -7,7 +7,7 @@ class Form extends Component {
         this.state = {
             username: '',
             comment: '',
-            topic: ''
+            topic: 'react'
         }
         // this.handleUsernameChange = this.handleUsernameChange.bind(this)
     }

@@ -13,11 +13,13 @@ import ParentComponent from './ParentComponent.js';
 import UserGreeting from './UserGreeting.js';
 import NameList from './NameList.js';
 import Form from './Form.js';
+import LifecycleA from './LifecycleA.js';
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <LifecycleA/>
+      {/* <Form/> */}
       {/* <NameList /> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
