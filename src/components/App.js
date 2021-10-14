@@ -14,11 +14,15 @@ import UserGreeting from './UserGreeting.js';
 import NameList from './NameList.js';
 import Form from './Form.js';
 import LifecycleA from './LifecycleA.js';
+import FragmentDemo from './FragmentDemo.js';
+import Table from './Table.js';
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA/>
+      <Table/>
+      {/* <FragmentDemo/> */}
+      {/* <LifecycleA/> */}
       {/* <Form/> */}
       {/* <NameList /> */}
       {/* <UserGreeting /> */}
