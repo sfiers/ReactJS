@@ -19,11 +19,12 @@ import Table from './Table.js';
 import PureComp from './PureComp.js';
 import ParentComp from './ParentComp.js';
 import RefsDemo from './RefsDemo.js';
-
+import FocusInput from './FocusInput.js'
 function App() {
   return (
     <div className="App">
-      <RefsDemo/>
+      <FocusInput/>
+      {/* <RefsDemo/> */}
       {/* <ParentComp/> */}
       {/* <Table/> */}
       {/* <FragmentDemo/> */}
