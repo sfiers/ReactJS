@@ -73,3 +73,8 @@ Pure Components
         SC of prevProps with currentProps
 
     Goal: is to achieve a performance boost by avoiding unnecessary rerendering
+
+Memo
+
+    Same as Pure Components but for Functional Components
+    use React.memo() in the Export
