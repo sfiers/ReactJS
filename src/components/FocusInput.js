@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Input from './Input'
 
 class FocusInput extends Component {
-    constructor(props) {
+    constructor(props) { 
         super(props)
         this.componentRef = React.createRef()
         this.state = {

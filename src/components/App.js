@@ -20,10 +20,13 @@ import PureComp from './PureComp.js';
 import ParentComp from './ParentComp.js';
 import RefsDemo from './RefsDemo.js';
 import FocusInput from './FocusInput.js'
+import FRParentInput from './FRParentInput.js';
+
 function App() {
   return (
     <div className="App">
-      <FocusInput/>
+      <FRParentInput />
+      {/* <FocusInput/> */}
       {/* <RefsDemo/> */}
       {/* <ParentComp/> */}
       {/* <Table/> */}
