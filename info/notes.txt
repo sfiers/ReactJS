@@ -51,3 +51,25 @@ When to use index as a key ?
     2.  The list is a static list and will not change.
     3.  The list will never be reordered or filtered.
 
+Fragments
+
+    <>
+    </>
+    (use of "key" prop is not possible in this notation)
+
+    or 
+
+    <React.Fragment>
+    </React.Fragment>
+
+Pure Components
+
+    Shallow comparison (SC)
+    a === b (false) same value but reference different obj
+    a === c (true) same value and reference same obj
+
+    shouldComponentUpdate
+        SC of prevState with currentState
+        SC of prevProps with currentProps
+
+    Goal: is to achieve a performance boost by avoiding unnecessary rerendering

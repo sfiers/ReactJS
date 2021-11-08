@@ -37,7 +37,7 @@ class LifecycleB extends Component {
         console.log('LifecycleB render')
         return (
             <div>
-                Lifecycle A
+                Lifecycle B
             </div>
         )
     }
