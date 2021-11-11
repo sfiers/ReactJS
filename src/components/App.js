@@ -26,12 +26,16 @@ import Hero from './Hero.js';
 import ErrorBoundary from './ErrorBoundary.js';
 import ClickCounter from './ClickCounter.js';
 import HoverCounter from './HoverCounter.js';
+import ClickCounterTwo from './ClickCounterTwo.js';
+import HoverCounterTwo from './HoverCounterTwo.js';
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter name='Simon'/>
-      <HoverCounter />
+      <ClickCounterTwo />
+      <HoverCounterTwo />
+      {/* <ClickCounter name='Simon'/>
+      <HoverCounter /> */}
       {/* <ErrorBoundary>
         <Hero heroName="Batman" />
       </ErrorBoundary>
