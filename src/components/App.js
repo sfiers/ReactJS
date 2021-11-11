@@ -28,12 +28,25 @@ import ClickCounter from './ClickCounter.js';
 import HoverCounter from './HoverCounter.js';
 import ClickCounterTwo from './ClickCounterTwo.js';
 import HoverCounterTwo from './HoverCounterTwo.js';
+import User from './User.js';
+import CounterTwo from './CounterTwo.js';
 
 function App() {
   return (
     <div className="App">
-      <ClickCounterTwo />
+      <CounterTwo>
+      { (count, incrementCount) => (
+        <ClickCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      </CounterTwo>
+      <CounterTwo>
+      { (count, incrementCount) => (
+        <HoverCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      </CounterTwo> 
+      {/* <ClickCounterTwo />
       <HoverCounterTwo />
+      <User render={(isLoggedIn) => isLoggedIn ? 'Simon' : 'Guest'} /> */}
       {/* <ClickCounter name='Simon'/>
       <HoverCounter /> */}
       {/* <ErrorBoundary>
