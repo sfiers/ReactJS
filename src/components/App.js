@@ -30,7 +30,7 @@ import HoverCounter from './HoverCounter.js';
 function App() {
   return (
     <div className="App">
-      <ClickCounter />
+      <ClickCounter name='Simon'/>
       <HoverCounter />
       {/* <ErrorBoundary>
         <Hero heroName="Batman" />
